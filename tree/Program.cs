@@ -2,10 +2,10 @@
 {
     class Program
     {  
-        class Node<T>  // Generi, Basic Node
+        class Node<T>  // Generic, Basic Node
         {
-            public T Data; // Data
-            public Node<T> next; // Next Node
+            public T Data;
+            public Node<T> left, right; // left child, right child
             public Node(T data) // Node Innitialization
             {
                 this.Data = data; 
